@@ -28,16 +28,6 @@ body{
   background-color: rgb(189, 0, 173);
 }
 
-/*.BasePerfil::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  background-color: red;
-}*/
-
 .circle {
   position: absolute;
   top: 50%;
@@ -203,7 +193,7 @@ body{
     position: relative;
     overflow: hidden;
     /*background-image: linear-gradient(to top, yellow, yellow);*/
-    background-color: rgb(37, 37, 37);
+    background-color:  rgb(255, 174, 242);
   }
 
   .circle {
@@ -221,7 +211,7 @@ body{
   }
 
   .nome{
-    font-size: 80px;
+    font-size: 70px;
     padding-top: 0;
     margin: 0 20px;
   }
