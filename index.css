@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Damion&family=Geologica&display=swap');
 
 body{
   margin: 0;
@@ -25,7 +26,7 @@ body{
   height: 50%;
   border-bottom: solid 5px white;
   box-shadow: 0 0 5px black;
-  background-color: rgb(189, 0, 173);
+  background-color: #980171;
 } 
 
 .circle {
@@ -58,12 +59,14 @@ body{
   font-family: 'Geologica', sans-serif;
   color: white;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .info .nome{
   width: 100%;
+  font-family: 'Damion', cursive;
+font-size: 100px;
 }
+
 
 .info h2{
   margin: auto;
@@ -72,7 +75,7 @@ body{
 }
 
 .nome{
-  color: rgb(189, 0, 173);
+  color: #980171;
 }
 
 .contato{
@@ -85,7 +88,7 @@ body{
 }
 
 .contato h1, h3{
-  color: rgb(189, 0, 173);
+  color: #980171;
 }
 
 .ico{
@@ -136,7 +139,7 @@ body{
 }
 
 .subitem{
-  background-color: rgb(255, 114, 232);
+  background-color: #980171;
   padding: 30px;
 }
 
@@ -146,12 +149,6 @@ body{
   padding: 30px;
 }
 
-.tit{
-  width: 100%;
-  padding:  5px;
-  background-color: rgb(189, 0, 173);
-}
-
 .menu{
   display: flex;
   justify-content: center;
@@ -159,6 +156,10 @@ body{
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.menu img{
+  border: solid 5px white ;
 }
 
 .itemmenu{
@@ -183,6 +184,12 @@ body{
 
 .itemmenu2 h1{
   margin: 15px;
+}
+
+.tit{
+  width: 100%;
+  padding:  5px;
+  padding-bottom: 35px;
 }
 
 @media (max-width: 1080px) {
