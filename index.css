@@ -26,9 +26,10 @@ body{
   border-bottom: solid 5px white;
   box-shadow: 0 0 5px black;
   background-color: rgb(189, 0, 173);
-}
+} 
 
 .circle {
+  background-color: white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,6 +198,7 @@ body{
   }
 
   .circle {
+    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
